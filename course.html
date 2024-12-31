@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="./images/bg.png" type="image/png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSTAD</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+<body>
+    
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="promotion">
+        <a target="_blank" class="link-container" href="#">
+            <img alt="" loading="lazy" width="25" height="25" decoding="async" class="icon" src="./images/flame.32faab87.gif">
+            <p class="text">Up to 20% off on Advanced JavaScript Course</p>
+            <button class="button">ENROLL NOW!</button>
+        </a>
+        </div>
+    </section>
+        <div class="containerr">
+            <div class="contentt">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="fs-1">Most Popular Courses</h2>
+                    <p class="mb-0">Choose from hundreds of courses from specialist organizations</p>
+                </div>
+                <ul class="nav nav-pills" id="course-pills-tab" role="tablist">
+                    <!-- Tab item -->
+                    <li class="nav-item">
+                        <button class="nav-link active" id="course-pills-tab-1" data-target="#course-pills-tabs-1" type="button" role="tab" aria-controls="course-pills-tabs-1" aria-selected="true">Web Design</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item">
+                        <button class="nav-link" id="course-pills-tab-2" data-target="#course-pills-tabs-2" type="button" role="tab" aria-controls="course-pills-tabs-2" aria-selected="false">Development</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item">
+                        <button class="nav-link" id="course-pills-tab-3" data-target="#course-pills-tabs-3" type="button" role="tab" aria-controls="course-pills-tabs-3" aria-selected="false">Graphic Design</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item">
+                        <button class="nav-link" id="course-pills-tab-4" data-target="#course-pills-tabs-4" type="button" role="tab" aria-controls="course-pills-tabs-4" aria-selected="false">Marketing</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item">
+                        <button class="nav-link" id="course-pills-tab-5" data-target="#course-pills-tabs-5" type="button" role="tab" aria-controls="course-pills-tabs-5" aria-selected="false">Finance</button>
+                    </li>
+                </ul>
+                    <div class="courses-gridd">
+                      <div class="course-cardd">
+                        <img src="https://img.youtube.com/vi/Pyv0tMm5i_w/maxresdefault.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">JavaScript Full Course For Beginners</p>
+                            <p class="description" style="font-size: 12px;">JavaScript Basics full course for beginners with 8 JavaScript projects and detailed notes.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/react js.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">React JS Crash Course For Beginners</p>
+                            <p class="description" style="font-size: 12px;">React JS crash course for beginners with project. Master React JS and build React Projects.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/js.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">JavaScript Full Course with 30 Projects</p>
+                            <p class="description" style="font-size: 12px;">Master the Complete JavaScript [Zero to Advanced] with 30 real world JavaScript projects.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/react.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">Complete React Hooks Course</p>
+                            <p class="description" style="font-size: 12px;">Master all React Hooks with this crash course and start making production ready react projects.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/next js.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">Next.js Crash Course For Beginners</p>
+                            <p class="description" style="font-size: 12px;">Next.js course for beginners with Full Stack Next Js project with MongoDB and Tailwind CSS.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/html 1.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">HTML & CSS Course with 8 Projects</p>
+                            <p class="description" style="font-size: 12px;">A step by step guide or course to learn HTML & CSS and start building your first web projects.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/git.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">Git And GitHub Crash Course</p>
+                            <p class="description" style="font-size: 12px;">Complete Git And GitHub crash course for beginners with example and GitHub pages deployment.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-cardd">
+                        <img src="./images/html.jpg" alt="JavaScript Full Course For Beginners">
+                        <div class="course-infoo">
+                            <p class="title" style="font-size: 16px;">HTML and CSS Full Tutorial For Beginners</p>
+                            <p class="description" style="font-size: 12px;">Master the Complete HTML & CSS with example and start working on making beautiful web pages.</p>
+                            <div class="actions">
+                                <button class="free">Free</button>
+                                <a href="#" target="_blank" class="watch-now">
+                                    <p style="color: darkblue;">Enroll Now</p>
+                                    <i style="color: darkblue" class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-3 text-center text-md-left">
+                    <img src="./images/logo.png" alt="CSTAD - Advanced IT Center in Cambodia" class="footer-logo">
+                    <p class="school-quotes">Start your IT career with CSTAD</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="footer-title">Learn More</p>
+                    <ul class="footer-ul">
+                        <li><a href="/page/course">Course</a></li>
+                        <li><a href="/page/content">IT News</a></li>
+                        <li><a href="/page/job-opportunity">Job Opportunity</a></li>
+                        <li><a href="/page/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/page/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="footer-title">Contact Us</p>
+                    <ul class="footer-ul">
+                        <li><a href="#">(+855) 95-990-910</a></li>
+                        <li><a href="#">(+855) 93-990-910</a></li>
+                        <br>
+                        <li><a href="https://t.me/istadkh" target="_blank"><i class="fab fa-telegram i-style"></i>Telegram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCUaq9S8Gu4zteE-x77JT-kA" target="_blank"><i class="fab fa-youtube i-style"></i>Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="app-section">
+                    <p class="app-title">CSTAD APP</p>
+                    <div class="store-buttons">
+                        <a href="https://apps.apple.com/kh/app/cstad-mobile/id6463835798">
+                            <img alt="Appstore Button" src="https://social.webestica.com/assets/images/app-store.svg">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=co.istad.mobile.istad_moblie&amp;pcampaignid=web_share">
+                            <img alt="Playstore Button" src="https://social.webestica.com/assets/images/google-play.svg">
+                        </a>
+                    </div>
+                </div>                
+                <div class="col-12 col-md-3">
+                    <p class="footer-title">Follow Us</p>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fistad.co&amp;tabs&amp;width=255&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=536767018150991" width="255" height="130" class="facebook-frame"></iframe>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <p class="footer-note">
+                © 2024 Center of Science and Technology Advanced Development | All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
